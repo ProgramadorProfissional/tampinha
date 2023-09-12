@@ -1,0 +1,97 @@
+.container-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  
+
+  .tudo{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+    color: white;
+    
+  }
+  
+  /* Card */
+  .card-times {
+    width: 300px;
+    height: 350px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+  }
+  
+  /* Card Header*/
+  .card-cabeca {
+    width: 100%;
+    height: 205px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-image {
+    min-width: 150px;
+    width: auto;
+    height: 150px;
+  }
+  
+  /* Card Body */
+  .card-corpo {
+    height: 90px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  
+  .card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+  }
+  
+  
+  /* Card Footer */
+  .card-rodape {
+    text-align: center;
+    background-color: #355fc5;
+  }
+  
+  .card-rodape a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Cores Cards */
+  .card .card-rodape {
+    background-color: #2740d1;
+  }
+
+  
+  /* Animação Hover */
+  .card-times:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+
+  .card-rodape a:hover{
+    color: #bba1e4;
+  }
+
+  .formularios{
+    display: flex;
+    justify-content: center;
+
+  }
